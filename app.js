@@ -43,7 +43,7 @@ const flags = [
     {country: 'Venezuela', capitals: 'Caracas', image: 'https://www.countryflags.com/wp-content/uploads/venezuela-flag-png-large.png'},
     {country: 'Peru', capitals: 'Lima', image: 'https://www.countryflags.com/wp-content/uploads/peru-flag-png-large.png'},
     {country: 'Uzbekistan', capitals: 'Tashkent', image: 'https://www.countryflags.com/wp-content/uploads/uzbekistan-flag-png-large.png'},
-    {country: 'Nepal', capitals: 'Kathmandu', image: 'https://www.countryflags.com/wp-content/uploads/nepal-flag-png-large.png'},
+    {country: 'Nepal', capitals: 'Kathmandu', image: 'https://www.montana.edu/everest/facts/images/ff03_01.png'},
     {country: 'Angola', capitals: 'Luanda', image: 'https://www.countryflags.com/wp-content/uploads/flag-jpg-xl-5-2048x1365.jpg'},
     {country: 'Saudi Arabia', capitals: 'Riyadh', image: 'https://www.countryflags.com/wp-content/uploads/saudi-arabia-flag-png-large.png'},
     {country: 'Yemen', capitals: 'Sana\'a', image: 'https://www.countryflags.com/wp-content/uploads/yemen-flag-png-large.png'},
