@@ -291,7 +291,7 @@ body {
 
 input {
     font-family: 'Lemon';
-    width: 70%;
+    width: 500px;
     height: 30px;;
     border-radius: 50px;;
 }
@@ -327,7 +327,6 @@ input {
 #world-capital, #world-flags1 {
     font-size: 2rem;
 }
-
 
 .finished {
     font-family: 'Abril Fatface';
