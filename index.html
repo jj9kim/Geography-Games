@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geography Games</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="240x240" href="./images/favicon-32x32.png">
+</head>
+<body>
+    <div id="main">
+        <div id="container">
+            <div id="flag-cap">
+                <h2 id="world-flags1">World Flags</h2>
+                <div id="score-board">
+                    <div id="score">Score:</div>
+                    <div id="number">0</div>
+                    <div id="out-of">/197</div>
+                    <input data-popup-target="#popup" id="pause-button" type="image" src="./images/pause.png">
+                </div>
+            <div id="back-forth">
+                <input id="back" class="back-forth" type="image" onclick="goBack()" src="./images/backwards.png">
+                <input id="forth" class="back-forth" type="image" onclick="goForth()" src="./images/forwards.png">
+            </div>
+            <div id="flag-image">
+                <img src="" alt="flag" id="flag">
+            </div>
+            <input class="input-answer" oninput="answer()" type="text" placeholder="Enter a country name...">
+            </div>
+        </div>
+    
+        <div class="popup" id="popup">
+            <p id="options">Options</p>
+            <button class="menu" id="button-off" data-close-button class="close-button">Close</button>
+            <button class="menu" onclick="endGame()">End Game</button>
+            <button class="menu" onclick="goMenu()">Go To Menu</button>
+        </div>
+    
+        <div class="popup" id="popup1">
+            <p class="finished">Game Finished!</p>
+            <div id="final-score-board">
+                <div class="score-text">Your Score was:</div>
+                <div class="final-score"></div>
+                <div class="out-of1">/197</div>
+            </div>
+            <button class="menu" onclick="goMenu()">Go To Menu</button>
+        </div>
+    
+        <div class="start" id="start">
+            <img id="globe" src="./images/globe.png" alt="globe">
+            <img id="vines" src="./images/vines.png" alt="vines">
+            <h2 id="title-head">Geography Games</h2>
+            <div id="world-flags" style="display: block;">
+                <button class="game-modes" id="world-flags" onclick="worldFlags()">World Flags</button>
+            </div>
+            <div id="world-capitals" style="display: block;">
+                <button class="game-modes" onclick="worldCapitals()">World Capitals</button>
+            </div>
+            <div id="world-countries" style="display: block;">
+                <button class="game-modes" onclick="worldCountries()">World Countries</button>
+            </div>
+        </div>
+    
+        <div id="container1">
+            <div id="header-cap">
+                <div id="score-board1">
+                    <div id="score1">Score:</div>
+                    <div id="number1">0</div>
+                    <div id="out-of">/197</div>
+                    <input data-popup-target="#popup" id="pause-button" type="image" src="./images/pause.png">
+                </div>
+                <div id="world-capital">World Capitals</div>
+                <div id="back-forth1">
+                    <input id="back" class="back-forth" type="image" onclick="goBack()" src="./images/backwards.png">
+                    <input id="forth" class="back-forth" type="image" onclick="goForth()" src="./images/forwards.png">
+                </div>
+            </div>
+                <h2 id="name-country"></h2>
+                <div id="country-name">
+                    <img src="" alt="flag" id="flag1">
+                </div>
+                <input class="input-answer1" oninput="answer()" type="text" placeholder="Enter a capital name...">
+        </div>
+        
+        <div id="overlay"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
