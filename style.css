@@ -76,6 +76,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: black;
 }
 
 .score-text {
@@ -98,6 +99,7 @@ body {
     background-color:#1ED270;
     width: 500px;
     max-width: 80%;
+    color: black;
 }
 
 .popup.active {
@@ -312,10 +314,11 @@ input {
 .menu {
     width: 50%;
     margin: 10px;
-    background-color: #A3EBB1;
+    background: #A3EBB1;
     border-radius: 5px;
-    font-family: 'Bungee Spice';
-    font-size: 1rem;
+    font-family: 'Abril Fatface';
+    font-size: 1.3rem;
+    color: black !important;
 }
 
 .menu:hover {
